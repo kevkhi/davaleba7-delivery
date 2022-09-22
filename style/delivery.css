@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.head{display: flex;
+    justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;}
+
+header{
+    width: 1440px;
+   height: 150px;
+   padding: 60px 80px;
+   text-transform: capitalize;
+   font-size: 20px;
+float: left;
+}
+
+.home{
+    clear: both;
+    width: 563px; height: 43px;
+}
+.werto{position: relative;
+}
+/* .werto2{position: relative;}
+.werto3{position: relative;} */
+
+
+.werto::before{
+    content: " ";
+    width: 5px; height: 5px;
+   background-color: black;
+    position: absolute;
+    border-radius: 50%;
+   
+    bottom: -15px; left: 50%;
+
+}
+/* .werto2::before{
+    content: " ";
+    width: 5px; height: 5px;
+   background-color: black;
+    position: absolute;
+    border-radius: 50%;
+   
+    bottom: -15px; left: 50%;
+
+} */
+/* .werto3::before{
+    content: " ";
+    width: 5px; height: 5px;
+   background-color: black;
+    position: absolute;
+    border-radius: 50%;
+   
+    bottom: -15px; left: 50%;} */
+
+
+header nav ul li a {color: black;}
+header nav p a {color: black;}
+.toggle{
+    font-size: 25px;
+}
+.img2{
+width: 179px; height: 61px;
+background-image: url(../png/Button.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+main{padding-left: 80px; padding-right: 40px;
+    align-items: center;
+}
+.order{
+    width: 466px; height: 306px;
+    
+}
+section div h2{
+    font-size: 60px;
+    
+}
+
+section div  p{
+margin-top: 30px; margin right: 40px;
+font-size: 20px;}
+.order2{width: 394px; height: 90px;}
+.color{color: rgba(119, 119, 118, 1);}
+.started{
+   height: 61px;
+   width: 179px;
+background-image: url(../png/Button\ 2\ \(2\).png);
+background-repeat: no-repeat;
+background-position: center;
+}
+.img3{ width: 675px; height: 506px;
+    background-image: url(../png/Img\ \(1\).png);
+background-position: center;}
+
+
+/* .deli3{width: 1440px; height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;} */
+
+.service{ margin: auto;
+    width: 380px; height: 120px;
+}
+.some{
+    font-size: 40px; color: rgba(0, 0, 0, 1);
+    
+}
+.some1{ width: 380px; height: 120px;
+      font-size: 35px;
+margin: auto;
+}
+.deli2{margin-top: 100px;}
+.page2{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;}
+/* .some1{width: 380px; height: 120px;
+margin-left: 50%;} */
+/* .deli3{margin-top: 200px;} */
+.deli3{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.deli4{padding-top: 50px; display: flex;
+justify-content: space-between;}
+.watch{ font-size: 10px;
+    width: 510px; height: 250px;
+
+}
+.with{
+    color: rgba(119, 119, 118, 1);
+    font-size: 20px;
+}
+.button2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50PX;
+}
+.contact{ 
+    margin-top: 100px;
+    width: 330px; height: 244px;
+}
+.cont{ font-size: 40px;
+    text-transform: capitalize;}
+    .you{
+        text-transform: 20px; color: rgba(119, 119, 118, 1);
+        padding-top: 30px;
+    }
+    .mumbai{
+        width: 300px; height: 145px;
+    }
+    .tele{font-size: 20px; color: black;
+    display: inline-block;}
+    .tele2{font-size: 20px; color: rgba(119, 119, 118, 1);}
+    
+    .contein{
+        display: flex;
+    }
+    .copntainer{
+        display: flex;
+        width: 1440px; 
+        height: 600px;
+    }
+    .box{
+        width: 1440px; height: 450px; background-color: rgba(254, 227, 149, 1);
+
+    }
+    .box1{ flex-direction: column;
+        width: 183px; height: 98px;}
+    .box2{ flex-direction: column;
+        width: 128px; height: 165px;}
+    .box3{ flex-direction: column;
+        width: 144px; height: 134px;}
+    .box4{ flex-direction: column;
+        width: 122px; height: 134px;}
+    
+.box{ padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+footer div p{text-transform: capitalize;
+font-size: 20px;}
+footer div ul li {
+font-size: 15px; color: rgba(119, 119, 118, 1);
+}
